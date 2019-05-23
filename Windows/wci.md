@@ -78,7 +78,7 @@ command1 | command2
 
 ### Template
 ```bash
-# DESCRIPTION:
+# DESCRIPTION: 
 
 # EXAMPLE:
 
