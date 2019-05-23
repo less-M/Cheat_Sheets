@@ -68,28 +68,33 @@ command1 | command2
 
 ```
 
-### Template
+### Display System info
 ```bash
-# DESCRIPTION:
+# DESCRIPTION: The following commands will display different pieces of systems information.
 
 # EXAMPLE:
-
+hostname # Displays hostname of current machine
+ver # Displays Windows version
+vol # Displays disk volume label and serial number
+systeminfo # config information for local machine. Can be used on remote machines
 ```
 
-### Template
+### Set
 ```bash
-# DESCRIPTION: 
+# DESCRIPTION: Used to managed system variables
 
 # EXAMPLE:
-
+set z=hello world
+set z = hello world # using this variant makes your variable %z % instead of %z%
 ```
 
-### Template
+### CD
 ```bash
-# DESCRIPTION:
+# DESCRIPTION: Change your directory.
 
 # EXAMPLE:
-
+cd c:\windows\system32
+cd ..\.. # this will return you back two folders instead of one.
 ```
 
 ### Template
